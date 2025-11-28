@@ -1,8 +1,6 @@
 import React from 'react'
-
-
 import starimg from '../assets/star.png'
-import noimg from '../assets/No-poster.png'
+import noimg from '../assets/No-Poster.png'
 
 const MovieCard = ({movie}) => {
     const {title, vote_average, poster_path, original_language, release_date, overview} = movie
