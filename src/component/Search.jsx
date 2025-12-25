@@ -7,7 +7,6 @@ const Search = ({search, setSearch}) => {
     <div className='search'>
         <div>
             <img src={searchicons} alt="search-icons" />
-
             <input type="text"
             placeholder='Search through thousands of movies'
             values={search}
